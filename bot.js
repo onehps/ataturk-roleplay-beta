@@ -161,4 +161,4 @@ client.on('guildMemberRemove', member => {
   channel.sendEmbed(embed);
 });
 
-client.login(ayarlar.token);
+client.login(process.env.BOT_TOKEN);
